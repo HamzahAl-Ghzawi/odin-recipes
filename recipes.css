@@ -1,12 +1,12 @@
 h1 {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     color: blanchedalmond;
     text-align: center;
     font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 38px;
     width: 500px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 
@@ -15,27 +15,70 @@ body {
 }
 
 ul {
-    width: 460px;
     box-sizing: content-box;
+    width: 460px;
+    height: 280px;
     margin: 0 auto;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     text-align: center;
     font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
 }
 
 li {
     display: block;
+    width: 350px;
     font-size: 18px;
     color: blanchedalmond;
-    margin-bottom: 10px;
-    
+    margin: 0 auto;    
 }
 
 .pancake {
-    color: blanchedalmond;
-    margin-top: 20px;
+    display: block;
+    border: 8px solid gray;
+    margin: 0 auto;
+    padding-top: 16px;
     margin-bottom: 20px;
 }
 
+.lasagna {
+    display: block;
+    margin: 0 auto;
+    border: 8px solid gray;
+    padding-top: 16px;
+    margin-bottom: 16px;
+}
 
+.grilled {
+    display: block;
+    margin: 0 auto;
+    border: 8px solid gray;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
 
+.pancake-link {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.lasagna-link {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.grilled-link {
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    color: black;
+    padding: 0 25px;
+    margin-bottom: 18px;
+    font-size: large;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
