@@ -1,0 +1,85 @@
+body {
+    background-color: darkgray;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    display: block;
+    color: blanchedalmond;
+    background-color:black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.button-color{
+    color: blanchedalmond;
+}
+button {
+    font-family: sans-serif;
+    width: 60px;
+    display: block;
+    color: blanchedalmond;
+    background-color: black;
+    margin-bottom: 10px;
+    
+}
+
+h2 {
+    display: block;
+    width: 135px;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+p {
+    display: inline-block;
+    color: blanchedalmond;
+    background-color: black;
+    font-size: 16px;
+    padding: 6px;
+
+
+}
+
+.desc {
+    padding-left: 5px;
+}
+.ingredients {
+    padding-left: 5px;
+    width: 135px;
+    display: block;
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;
+
+}
+.steps {
+    width: 70px;
+    padding-left: 5px;
+}
+ul {
+    color: blanchedalmond;
+    background-color: black;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+ol {
+    color: blanchedalmond;
+    background-color: black;
+    padding-top: 5px;
+    margin-bottom: 100px;
+    height: 145px;
+    width: auto;
+
+}
+
+ol li {
+    background-color: black;
+    padding-top: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
