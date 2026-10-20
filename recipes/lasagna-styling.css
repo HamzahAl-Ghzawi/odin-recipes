@@ -6,8 +6,8 @@ body {
 
 h1 {
     display: block;
+    text-align: center;
     background-color: black;
-    width: 135px;
     padding: 3px;
 }
 
@@ -35,8 +35,75 @@ button {
 }
 
 p {
-    display: inline;
+    display: inline-block;
+
     color: blanchedalmond;
     background-color: black;
+    padding: 8px;
+}
+
+.ingredients {
+    display: block;
+    color: blanchedalmond;
+    background-color: black;
+    width: 130px;
+    padding: 3px;
+}
+
+
+
+h3 {
+    display: block;
+    background-color: black;
     padding: 4px;
+    margin: 0 auto;
+}
+
+.first-list {
+    display: block;
+    background-color: black;
+}
+
+.first-list li {
+    background-color: black;
+    padding: 4px;
+}
+
+.second-list {
+    display: block;
+    background-color: black;
+}
+
+.second-list li {
+    background-color: black;
+    padding: 4px;
+}
+
+.third-list {
+    display: block;
+    background-color: black;
+}
+
+.third-list li {
+    background-color: black;
+    padding: 4px;
+}
+
+.cooking-steps {
+    display: block;
+    color: blanchedalmond;
+    background-color: black;
+    width: 68px;
+    padding: 4px;
+}
+
+.ordered {
+    display: block;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+.ordered li {
+    background-color: black;
+    padding: 6px;
 }
